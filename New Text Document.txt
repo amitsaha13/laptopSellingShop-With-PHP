@@ -1,0 +1,18 @@
+<?php
+    
+    $qty = '';
+    $name = '';
+    $price = '';
+    $id = '';
+    if(isset($_POST["add"]))
+    {
+        
+        $qty = $_POST["qty"];
+        $name = $_POST["hidenName"];
+        $price = $_POST["hidenPrice"];
+        $id = $_POST["hidenid"];        
+    }
+echo $price * 2;
+    
+    
+?>
